@@ -28,3 +28,11 @@ Patreon: https://www.patreon.com/maoberlehner
 ### License
 
 MIT
+
+### remove dependency and use globally installed live-server
+``` bash
+sudo npm install -g live-server
+```
+
+### run
+npm start
