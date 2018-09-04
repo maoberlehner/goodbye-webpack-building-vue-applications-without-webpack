@@ -6,9 +6,6 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "browser-sync start --server 'src' --files 'src' --single"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.24.1"
+    "start": "live-server './src' --no-browser"
   }
 }
