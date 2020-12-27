@@ -4,11 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Goodbye webpack: Building Vue.js Applications Without webpack</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-    <!-- This is a development version of Vue.js! -->
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Hello World!</title>
     <script src="/main.js" type="module"></script>
+    <!--
+      To prevent waterfall-loading, we preload
+      all the JS Module files of our application.
+    -->
+    <link rel="modulepreload" href="https://unpkg.com/vue@3.0.4/dist/vue.runtime.esm-browser.js">
+    <link rel="modulepreload" href="https://unpkg.com/htm@3.0.4/dist/htm.module.js?module">
+    <link rel="modulepreload" href="/components/App.js">
+    <link rel="modulepreload" href="/components/BaseButton.js">
+    <link rel="modulepreload" href="/utils/html.js">
   </head>
   <body>
     <div id="app"></div>

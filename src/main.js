@@ -1,12 +1,8 @@
+import { createApp, h } from 'https://unpkg.com/vue@3.0.4/dist/vue.runtime.esm-browser.js';
+
 import App from './components/App.js';
 
-// TODO style frame wieder raus?
-// TODO stattdessen global styles und css in js als alternative?
-// TODO examples schöner machen
-// TODO CSS in JS example
-// TODO CSS kopieren
-// TODO babel
-
-new Vue({
-  render: h => h(App),
-}).$mount(`#app`);
+const app = createApp({
+  render: () => h(App),
+});
+app.mount(`#app`);

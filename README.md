@@ -1,9 +1,9 @@
-# Goodbye webpack: Building Vue.js Applications Without webpack
+# Building Vue.js Applications Without webpack
 
 [![Patreon](https://img.shields.io/badge/patreon-donate-blue.svg)](https://www.patreon.com/maoberlehner)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/maoberlehner)
 
-This is an example project for the following article: [Goodbye webpack: Building Vue.js Applications Without webpack](https://markus.oberlehner.net/blog/goodbye-webpack-building-vue-applications-without-webpack/)
+This is an example project for the following article: [Building Vue.js Applications Without webpack](https://markus.oberlehner.net/blog/goodbye-webpack-building-vue-applications-without-webpack/)
 
 ## Build Setup
 

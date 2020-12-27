@@ -1,14 +1,22 @@
-import UserList from './UserList.js';
+import html from '../utils/html.js';
+
+import BaseButton from './BaseButton.js';
 
 export default {
   name: `App`,
-  components: {
-    UserList,
+  data() {
+    return {
+      count: 0,
+    };
   },
-  template: `
-    <div class="container mx-auto p-4">
-      <h1>Users</h1>
-      <user-list class="mt-6"></user-list>
-    </div>
-  `,
+  render() {
+    return html`
+      <div>
+        Count: ${this.count}
+        <${BaseButton} onClick=${() => { this.count += 1 }}>
+          +1
+        <//>
+      </div>
+    `;
+  },
 };
